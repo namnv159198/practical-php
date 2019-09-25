@@ -17,3 +17,5 @@ Route::get('/', function () {
 Route::get('/index',"DemoController@viewIndex");
 Route::get('/add-student',"DemoController@saveStudent");
 Route::post('/add-student',"DemoController@updateStudent");
+Route::get('/form-survey',"DemoController@viewFormSurvey");
+Route::post('/add-survey',"DemoController@addSurvey");
